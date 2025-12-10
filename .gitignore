@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build Outputs
+dist/
+.vercel/
+
+# Generated Types & Cache (Astro)
+.astro/
+*.tsbuildinfo
+
+# Environment Variables (Security)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor Clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
